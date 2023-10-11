@@ -5,7 +5,15 @@
 body{
 background-color: #EED3FF;
 }
-
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    background-color: #cedceb;
+    margin-top: 30px;
+}
 .a1{
 display: flex;
 justify-content: center;
