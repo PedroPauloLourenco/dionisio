@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
 }
 /* Rectangle 1 */
 body{
@@ -11,13 +12,26 @@ footer{
     justify-content: center;
     align-items: center;
     font-style: italic;
-    background-color: #cedceb;
+    background-color: #f8ecff;
     margin-top: 30px;
 }
 .a1{
 display: flex;
 justify-content: center;
 margin:1%;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin-right: 5px;
+}
+header ul li a{
+    margin: 5px;
+    text-decoration:solid;
+    color: #652C92;
+}
+header ul li a:hover{
+    background-color: #EED3FF;
 }
 #cabecalho{
 display: flex;
@@ -92,6 +106,9 @@ line-height: 30px;
 .redondo p{
     margin: 1%
 }
+.redondo ul{
+    margin-left: 20px;
+}
 .b{
     display: flex;
     justify-content: center;
@@ -138,10 +155,34 @@ margin:2%;
     display: flex;
     justify-content: space-around;
 }
-
-#email{
-    margin-left: 5%;
+#eu div{
+    margin-top: 50px;
+}
+#eu div p{
     display: flex;
-    font-size: 40px;
+    justify-content: space-around;
+
+    border-radius: 15px;
+    border-top: 5px solid #000;
+    border-right: 5px solid #000;
+    border-bottom: 10px solid #000;
+    border-left: 10px solid #000;
+    background: #FEF5FF; 
+    margin: 10PX;
+    font-size: 20px;
+    font-family: PT Sans;
+    text-align: left;
+    line-height: 30px;
+}
+#email{
+    margin: 10px;
+    display: flex;
+    font-size: 20px;
     font-family: PT Sans; 
+}
+#zap{
+    width: 5vw;
+    height: 5vw;
+    display: flex;
+    margin: 5px;
 }
